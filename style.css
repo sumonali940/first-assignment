@@ -106,7 +106,18 @@ h2.title-text {
     text-align: center;
 }
 
+.image-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.imgWrapper img {
+    width: 100%;
+}
 
 
 
