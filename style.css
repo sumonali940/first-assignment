@@ -217,7 +217,30 @@ section#section-four{
 .gallery-img:last-child {
     margin-right: unset;
 }
+/* section four end  */
 
+/* section Five start  */
 
-
+section#section-five{
+    
+}
+.subscription{
+    background-image: url('images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px;
+    border-radius: 20px;
+}
+.inputBox {
+    text-align: center;
+    margin-top: 20px;
+}
+input[type="email"] {
+    padding: 11px;
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
 
