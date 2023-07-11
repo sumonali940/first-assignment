@@ -82,10 +82,29 @@ p.content-description {
     text-align: right;
 }
 
+/* Section two  */
+.title {
+    width: 500px;
+    margin: auto;
+}
+section#section-two {
+    padding: 100px 0px;
+}
 
-
-
-
+h2.title-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.short-des {
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
 
 
 
