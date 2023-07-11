@@ -197,6 +197,26 @@ section#section-three{
 section#section-four{
     padding: 100px 0;
 }
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery-img img {
+    width: 100%;
+}
+
+.gallery-img {
+    margin-right: 15px;
+}
+.gallery-img:last-child {
+    margin-right: unset;
+}
 
 
 
