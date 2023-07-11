@@ -3,7 +3,7 @@
 
 /* Body  */
 body{
-
+    font-family: 'Lato', sans-serif;
 }
 /* Primary button  */
 .btn-primary{
@@ -29,4 +29,28 @@ body{
 section#section-one{
     background: rgba(229, 84, 115, 0.10);
     padding: 100px 0px;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+h2.content-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+p.content-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
